@@ -1809,7 +1809,7 @@ class DB {
       int set_attrs(const DoutPrefixProvider *dpp, map<string, bufferlist>& setattrs,
           map<string, bufferlist>* rmattrs);
       int obj_omap_set_val_by_key(const DoutPrefixProvider *dpp, const std::string& key, bufferlist& val, bool must_exist);
-      int obj_omap_get_vals_by_keys(const DoutPrefixProvider *dpp, const std::string& oid,
+      int obj_omap_get_vals_by_keys(const DoutPrefixProvider *dpp,
           const std::set<std::string>& keys,
           std::map<std::string, bufferlist>* vals);
       int obj_omap_get_all(const DoutPrefixProvider *dpp, std::map<std::string, bufferlist> *m);

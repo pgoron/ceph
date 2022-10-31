@@ -818,7 +818,6 @@ out:
 }
 
 int DB::Object::obj_omap_get_vals_by_keys(const DoutPrefixProvider *dpp,
-                                          const std::string& oid,
                                           const std::set<std::string>& keys,
                                           std::map<std::string, bufferlist>* vals)
 {
